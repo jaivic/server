@@ -1,0 +1,20 @@
+2019.07.29 21:32:27,694	INFO	1	com.l2jserver.gameserver.GameServer	------------------------------------------------=[ Database ]
+2019.07.29 21:32:29,016	INFO	1	com.l2jserver.gameserver.dao.factory.impl.DAOFactory	Using MySQL DAO Factory.
+2019.07.29 21:32:29,031	INFO	1	com.l2jserver.commons.database.pool.impl.ConnectionFactory	Using HikariCP connection pool.
+2019.07.29 21:32:29,031	INFO	1	com.l2jserver.gameserver.GameServer	GameServer: Used memory: 15MB.
+2019.07.29 21:32:29,031	INFO	1	com.zaxxer.hikari.HikariDataSource	HikariPool-1 - Starting...
+2019.07.29 21:32:32,260	SEVERE	1	com.zaxxer.hikari.pool.HikariPool	HikariPool-1 - Exception during pool initialization.
+2019.07.29 21:32:32,260	WARNING	1	com.l2jserver.commons.database.pool.IConnectionFactory	HikariCPConnectionFactory: Unable to get a connection!
+2019.07.29 21:32:32,260	INFO	1	com.zaxxer.hikari.HikariDataSource	HikariPool-1 - Starting...
+2019.07.29 21:32:35,320	SEVERE	1	com.zaxxer.hikari.pool.HikariPool	HikariPool-1 - Exception during pool initialization.
+2019.07.29 21:32:35,320	WARNING	1	com.l2jserver.commons.database.pool.IConnectionFactory	HikariCPConnectionFactory: Unable to get a connection!
+2019.07.29 21:32:35,320	INFO	1	com.zaxxer.hikari.HikariDataSource	HikariPool-1 - Starting...
+2019.07.29 21:32:38,355	SEVERE	1	com.zaxxer.hikari.pool.HikariPool	HikariPool-1 - Exception during pool initialization.
+2019.07.29 21:32:38,355	WARNING	1	com.l2jserver.commons.database.pool.IConnectionFactory	HikariCPConnectionFactory: Unable to get a connection!
+2019.07.29 21:32:38,355	INFO	1	com.zaxxer.hikari.HikariDataSource	HikariPool-1 - Starting...
+2019.07.29 21:32:41,383	SEVERE	1	com.zaxxer.hikari.pool.HikariPool	HikariPool-1 - Exception during pool initialization.
+2019.07.29 21:32:41,383	WARNING	1	com.l2jserver.commons.database.pool.IConnectionFactory	HikariCPConnectionFactory: Unable to get a connection!
+2019.07.29 21:32:41,383	INFO	1	com.zaxxer.hikari.HikariDataSource	HikariPool-1 - Starting...
+2019.07.29 21:32:44,463	SEVERE	1	com.zaxxer.hikari.pool.HikariPool	HikariPool-1 - Exception during pool initialization.
+2019.07.29 21:32:44,464	WARNING	1	com.l2jserver.commons.database.pool.IConnectionFactory	HikariCPConnectionFactory: Unable to get a connection!
+2019.07.29 21:32:44,468	INFO	1	com.zaxxer.hikari.HikariDataSource	HikariPool-1 - Starting...

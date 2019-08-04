@@ -1,0 +1,8 @@
+nov 19, 2017 11:20:41 AM com.l2jserver.gameserver.GameTimeController run
+ADVERTENCIA: Unable to move objects!
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.concurrent.ConcurrentHashMap$KeySetView.iterator(Unknown Source)
+	at java.util.Collection.removeIf(Unknown Source)
+	at com.l2jserver.gameserver.GameTimeController.moveObjects(GameTimeController.java:130)
+	at com.l2jserver.gameserver.GameTimeController.run(GameTimeController.java:158)
+
