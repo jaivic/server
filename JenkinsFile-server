@@ -1,0 +1,21 @@
+pipeline {
+    agent { label 'slave1'}
+    options {
+        ansiColor('xterm')
+    }
+        stages {
+          
+            stage ('Create docker image') {
+                steps {
+                    sh '$(aws ecr get-login --no-include-email --region us-east-1)'
+                    sh '''
+                  
+                    docker build -t $ECR_URL/l2-server:$TAG -f Dockerfile-server . -t l2-server
+                    docker tag l2-server:latest 397748689898.dkr.ecr.us-east-1.amazonaws.com/l2-server:latest
+                    docker push 397748689898.dkr.ecr.us-east-1.amazonaws.com/l2-server:latest
+                    '''
+                }
+
+            }
+        }
+}
