@@ -8,9 +8,9 @@ pipeline {
                     sh '$(aws ecr get-login --no-include-email --region us-east-1)'
                     sh '''
                   
-                    docker build -t 397748689898.dkr.ecr.us-east-1.amazonaws.com/l2-server:latest -f Dockerfile-server .
-
-                    docker push 397748689898.dkr.ecr.us-east-1.amazonaws.com/l2-server:latest
+                    docker build -t 397748689898.dkr.ecr.us-east-1.amazonaws.com/l2-login:latest -f Dockerfile-login . 
+                  
+                    docker push 397748689898.dkr.ecr.us-east-1.amazonaws.com/l2-login:latest
                     '''
                 }
 
