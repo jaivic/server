@@ -1,8 +1,6 @@
 pipeline {
-    agent { label 'slave1'}
-    options {
-        ansiColor('xterm')
-    }
+
+
         stages {
           
             stage ('Create docker image') {
